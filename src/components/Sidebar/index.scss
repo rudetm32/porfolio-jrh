@@ -50,12 +50,12 @@
                     opacity: 0;
                 }
         
-            &:after {
+            &::after {
                 opacity:1;
             }
         }
         
-        &:after {
+        &::after {
             content: "";
             font-size: 9px;
             letter-spacing: 2px;
@@ -69,18 +69,18 @@
         }
        
         &:first-child {
-            &:after {
+            &::after {
                 content:'HOME'
             }
         }
     }
     a.about-link {
-        &:after {
+        &::after {
             content:'ABOUT'
         }
     }
     a.contact-link {
-        &:after{
+        &::after{
             content:'CONTAC'
         }
     }
